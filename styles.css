@@ -1,0 +1,80 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    font-size: 2rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: lightgray;
+    cursor: pointer;
+    flex: 1;
+}
+
+.calculator {
+    margin: auto;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 22rem;
+    min-height: 23rem;
+    height: 30rem;
+    border-radius: 1rem;
+    border: 2px solid black;
+}
+
+.buttons {
+    display: flex;
+    flex: .8;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: .5rem;
+}
+
+.row {
+    flex: 1;
+    display: flex;
+    gap: .5rem;
+}
+
+.operation {
+    background: orange;
+}
+
+.selected {
+    background: lightgreen;
+}
+
+.footer {
+    display: flex;
+    height: 2rem;
+    justify-content: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.display {
+    background: lightgray;
+    border-radius: .2rem;
+    border: 2px solid black;
+    min-height: 4rem;
+    flex: .2;
+    display: flex;
+}
+
+#main {
+    margin: auto .5rem auto auto;
+    font-size: 2.25rem;
+    text-align: right;
+    color: black;
+}
